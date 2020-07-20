@@ -10,6 +10,6 @@ namespace AuthMicroservice.Data.DatabaseContexts
         {
             
         }
-        public DbSet<User> User { get; set; }
+        public DbSet<User> Users {get; set;}
     }
 }
